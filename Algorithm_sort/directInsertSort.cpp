@@ -22,10 +22,10 @@ void directInsertSort(vector<int> &v) {
 void directInsertSortDes(vector<int>& v) {
 	int n = v.size();
 	for (int i = 1; i < n; i++) {
-		if (v[i] > v[i - 1]) {  // 小于才进行插入，保证稳定性
+		if (v[i] > v[i - 1]) {  // 小于才进行插入，保证稳定性  // 降序修改处1
 			int temp = v[i];  // 记住当前值
 			int j;
-			for (j = i - 1; j >= 0 && temp > v[j]; j--) {
+			for (j = i - 1; j >= 0 && temp > v[j]; j--) {  // 降序修改处2
 				v[j + 1] = v[j];  // 后移
 			}
 			v[j + 1] = temp;
