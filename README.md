@@ -1,6 +1,6 @@
 # Algorithm-Sort
 C++相关排序算法
-## 插入排序
+## [插入排序](.\Algorithm_sort\directInsertSort.cpp)
 
 ### 直接插入排序
 ### 折半插入排序
