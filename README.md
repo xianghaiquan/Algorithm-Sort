@@ -1,8 +1,8 @@
 # Algorithm-Sort
 C++相关排序算法
-## [插入排序](.\Algorithm_sort\directInsertSort.cpp)
+## 插入排序
 
-### 直接插入排序
+### [直接插入排序](./Algorithm_sort/directInsertSort.cpp)
 ### 折半插入排序
 ### 希尔排序
 ## 交换排序
