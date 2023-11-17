@@ -1,0 +1,4 @@
+﻿  InsertSort.cpp
+F:\Github\Algorithm\Algorithm-Sort\Algorithm_sort\Algorithm_sort\InsertSort.cpp(8,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\Github\Algorithm\Algorithm-Sort\Algorithm_sort\Algorithm_sort\InsertSort.cpp(23,18): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Algorithm_sort.vcxproj -> F:\Github\Algorithm\Algorithm-Sort\Algorithm_sort\x64\Debug\Algorithm_sort.exe
