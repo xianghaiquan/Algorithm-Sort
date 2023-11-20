@@ -9,11 +9,11 @@ C++相关排序算法
 
 ## 交换排序
 ### [冒泡排序](./Algorithm_sort/bubbleSort.cpp)
-### 快速排序
+### [快速排序](./Algorithm_sort/quickSort.cpp)
 
 
 ## 选择排序
-### 直接选择排序
+### [简单选择排序](./Algorithm_sort/simpleSelectionSort.cpp)
 ### 堆排序
 
 
