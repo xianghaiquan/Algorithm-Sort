@@ -3,9 +3,9 @@
 
 using namespace std;
 
-//---------------------------------ÉıĞò-------------------------------------
+//---------------------------------å‡åº-------------------------------------
 
-// Ò»ÌË¹é²¢£ºÉıĞò
+// ä¸€è¶Ÿå½’å¹¶ï¼šå‡åº
 void merge(vector<int> &A, int left, int mid, int right) {
     vector<int> B = A;
     int i, j, k;
@@ -25,7 +25,7 @@ void merge(vector<int> &A, int left, int mid, int right) {
     }
 }
 
-// £¨2Â·£©¹é²¢ÅÅĞò£ºÉıĞò
+// ï¼ˆ2è·¯ï¼‰å½’å¹¶æ’åºï¼šå‡åº
 void mergeSort(vector<int> &v, int left, int right){
     if (left < right) {
         int mid = (left + right) / 2;
@@ -35,14 +35,14 @@ void mergeSort(vector<int> &v, int left, int right){
     }
 }
 
-//---------------------------------½µĞò-------------------------------------
+//---------------------------------é™åº-------------------------------------
 
-// Ò»ÌË¹é²¢£º½µĞòĞò
+// ä¸€è¶Ÿå½’å¹¶ï¼šé™åº
 void mergeDesc(vector<int>& A, int left, int mid, int right) {
     vector<int> B = A;
     int i, j, k;
     for (i = left, j = mid + 1, k = i; i <= mid && j <= right; k++) {
-        if (B[i] >= B[j]) {   // ½µĞòĞŞ¸Ä´¦1
+        if (B[i] >= B[j]) {   // é™åºä¿®æ”¹å¤„1
             A[k] = B[i++];
         }
         else {
@@ -57,17 +57,17 @@ void mergeDesc(vector<int>& A, int left, int mid, int right) {
     }
 }
 
-// £¨2Â·£©¹é²¢ÅÅĞò£º½µĞò
+// ï¼ˆ2è·¯ï¼‰å½’å¹¶æ’åºï¼šé™åº
 void mergeSortDesc(vector<int>& v, int left, int right) {
     if (left < right) {
         int mid = (left + right) / 2;
-        mergeSortDesc(v, left, mid);  // ½µĞòĞŞ¸Ä´¦2£ºº¯ÊıÃû³ÆmergeSortDescĞŞ¸Ä
+        mergeSortDesc(v, left, mid);  // é™åºä¿®æ”¹å¤„2ï¼šå‡½æ•°åç§°mergeSortDescä¿®æ”¹
         mergeSortDesc(v, mid + 1, right);
-        mergeDesc(v, left, mid, right);  // ½µĞòĞŞ¸Ä´¦3£ºº¯ÊıÃû³ÆmergeDescĞŞ¸Ä
+        mergeDesc(v, left, mid, right);  // é™åºä¿®æ”¹å¤„3ï¼šå‡½æ•°åç§°mergeDescä¿®æ”¹
     }
 }
 
-//---------------------------------²âÊÔ-------------------------------------
+//---------------------------------æµ‹è¯•-------------------------------------
 
 #if 1
 int main() {
