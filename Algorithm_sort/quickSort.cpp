@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//--------------------------------------升序----------------------------------------
+
 // 一趟划分：升序
 int partition(vector<int> &v, int left, int right) {
 	int pivot = v[left];  // 每次选择最左边第一个元素为基准
@@ -24,6 +26,8 @@ void quickSort(vector<int>& v, int left, int right) {
 		quickSort(v, index + 1, right);
 	}
 }
+
+//--------------------------------------降序----------------------------------------
 
 // 一趟划分：降序
 int partitionDesc(vector<int>& v, int left, int right) {
@@ -47,7 +51,7 @@ void quickSortDesc(vector<int>& v, int left, int right) {
 	}
 }
 
-
+//--------------------------------------测试----------------------------------------
 
 #if 1
 int main() {

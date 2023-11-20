@@ -3,6 +3,8 @@
 
 using namespace std;
 
+//--------------------------------------…˝–Ú----------------------------------------
+
 // ºÚµ•—°‘Ò≈≈–Ú£∫…˝–Ú
 void simpleSelectionSort(vector<int>& v) {
 	int n = v.size();
@@ -19,6 +21,8 @@ void simpleSelectionSort(vector<int>& v) {
 	}
 }
 
+//--------------------------------------Ωµ–Ú----------------------------------------
+
 // ºÚµ•—°‘Ò≈≈–Ú£∫Ωµ–Ú
 void simpleSelectionSortDesc(vector<int>& v) {
 	int n = v.size();
@@ -34,6 +38,8 @@ void simpleSelectionSortDesc(vector<int>& v) {
 		}
 	}
 }
+
+//--------------------------------------≤‚ ‘----------------------------------------
 
 #if 0
 int main() {
